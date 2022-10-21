@@ -1,1 +1,1 @@
-# blog_resource
+# Blog
