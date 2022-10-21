@@ -109,6 +109,9 @@ wechat = "img/wechat_qrcode.jpg"
 title = "ARCHIVE"
 href = "/archive/"
 [[params.addtional_menus]]
+title = "TAGS"
+href = "/tags/"
+[[params.addtional_menus]]
 title = "ABOUT"
 href = "/about/"
 
