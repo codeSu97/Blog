@@ -22,10 +22,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.91.2"
+          hugo-version: 'latest'
           # extended: true
 
-      - name: Build Web
+      - name: Build
         run: hugo --minify
 
       - name: Deploy
