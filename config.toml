@@ -131,3 +131,5 @@ endLevel = 2
 startLevel = 1
 [markup.highlight]
 style = "dracula"
+[markup.goldmark.renderer]
+unsafe = true
