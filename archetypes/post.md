@@ -1,7 +1,6 @@
 ---
 layout:         "post"
 title:          "{{ replace .Name "-" " " | title }}"
-subtitle:       "子标题"
 description:    "文章描述"
 date:           "{{ .Date }}"
 author:         "codeSu"
