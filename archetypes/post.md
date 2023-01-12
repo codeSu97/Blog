@@ -6,6 +6,7 @@ date:           "{{ .Date }}"
 author:         "codeSu"
 URL:            "文件web访问路径"
 image:          "顶部图片路径"
+draft:          false
 tags:
   - Hello
 categories: [
