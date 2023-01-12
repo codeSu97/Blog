@@ -1,19 +1,21 @@
 ---
 layout:         "post"
-title:          "剑指Offer-11-旋转数组的最小数字"
+title:          "剑指offer-11-旋转数组的最小数字"
+subtitle:       "旋转数组的最小数字"
 description:    "把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转"
 date:           "2023-01-12T21:58:13+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof"
+URL:            "/LeetCode/sword-to-offer-11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof"
 image:          ""
 draft:          true
 tags:
-  - 剑指Offer
+  - LeetCode
+  - 剑指offer
   - 算法
   - 数组
   - 二分查找
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 
@@ -53,3 +55,26 @@ categories: [
     2. 当 `nums[medium] < nums[end]`，最小元素在数组左侧，即`end = medium`
     3. 当 `nums[medium] == nums[end]`，无法确定最小元素位置，缩小范围，`end = end - 1`
 3. 循环结束，返回`nums[start]`
+
+## 代码解法
+
+### Python
+
+```python
+from typing import List
+
+
+class Solution:
+    def minArray(self, numbers: List[int]) -> int:
+        start, end = 0, len(numbers) - 1
+        while start < end:
+            medium = (start + end) // 2
+            if numbers[medium] > numbers[end]:
+                start = medium + 1
+            elif numbers[medium] < numbers[end]:
+                end = medium
+            else:
+                end -= 1
+        return numbers[start]
+
+```

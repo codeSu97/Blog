@@ -1,18 +1,18 @@
 ---
 layout:         "post"
-title:          "剑指Offer-05.替换空格"
+title:          "剑指offer-05.替换空格"
 subtitle:       "替换字符串中的空格"
 description:    "把字符串 s 中的每个空格替换成\"%20\""
 date:           "2022-11-02T21:54:28+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/05-ti-huan-kong-ge-lcof"
+URL:            "/LeetCode/sword-to-offer-05-ti-huan-kong-ge-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 字符串
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

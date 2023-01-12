@@ -1,22 +1,22 @@
 ---
 layout:         "post"
-title:          "剑指Offer-07.重建二叉树"
+title:          "剑指offer-07.重建二叉树"
 subtitle:       "重建二叉树"
 description:    "输入某二叉树的前序遍历和中序遍历的结果，请构建该二叉树并返回其根节点"
 date:           "2022-11-08T22:54:02+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/06-zhong-jian-er-cha-shu-lcof"
+URL:            "/LeetCode/sword-to-offer-06-zhong-jian-er-cha-shu-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 树
   - 数组
   - 哈希表
   - 分治
   - 二叉树
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

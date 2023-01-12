@@ -1,18 +1,18 @@
 ---
 layout:         "post"
-title:          "剑指Offer-10-I.斐波那契数列"
+title:          "剑指offer-10-I.斐波那契数列"
 subtitle:       "斐波那契数列"
 description:    "写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）"
 date:           "2022-11-14T23:14:22+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/10-I-fei-bo-na-qi-shu-lie-lcof"
+URL:            "/LeetCode/sword-to-offer-10-I-fei-bo-na-qi-shu-lie-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 动态规划
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

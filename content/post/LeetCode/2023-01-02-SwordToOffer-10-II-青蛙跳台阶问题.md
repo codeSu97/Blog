@@ -1,19 +1,19 @@
 ---
 layout:         "post"
-title:          "剑指Offer-10-II.青蛙跳台阶问题"
+title:          "剑指offer-10-II.青蛙跳台阶问题"
 subtitle:       "青蛙跳台阶问题"
 description:    "一直青蛙一次可以跳上1级台阶，也可以跳上2级台阶。求该青蛙跳上一个n级台阶总共有多少种跳法"
 date:           "2023-01-02T16:26:45+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/10-II-qing-wa-tiao-tai-jie-wen-ti-lcof"
+URL:            "/LeetCode/sword-to-offer-10-II-qing-wa-tiao-tai-jie-wen-ti-lcof"
 image:          ""
 draft:          true
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 动态规划
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

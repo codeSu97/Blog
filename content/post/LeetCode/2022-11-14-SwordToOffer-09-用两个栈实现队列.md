@@ -1,20 +1,20 @@
 ---
 layout:         "post"
-title:          "剑指Offer-09.用两个栈实现队列"
+title:          "剑指offer-09.用两个栈实现队列"
 subtitle:       "用两个栈实现队列"
 description:    "用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，分别完成在队列尾部插入整数和在队列头部删除整数的功能"
 date:           "2022-11-14T21:25:18+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/09-yong-liang-ge-zhan-shi-xian-dui-lie-lcof"
+URL:            "/LeetCode/sword-to-offer-09-yong-liang-ge-zhan-shi-xian-dui-lie-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 栈
   - 设计
   - 队列
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

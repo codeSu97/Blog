@@ -1,20 +1,21 @@
 ---
 layout:         "post"
-title:          "剑指Offer-12-矩阵中的路径"
+title:          "剑指offer-12-矩阵中的路径"
+subtitle:       "矩阵中的路径"
 description:    "给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false"
 date:           "2023-01-12T22:58:13+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/12-ju-zhen-zhong-de-lu-jing-lcof"
+URL:            "/LeetCode/sword-to-offer-12-ju-zhen-zhong-de-lu-jing-lcof"
 image:          ""
 draft:          true
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 数组
   - 回溯
   - 矩阵
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

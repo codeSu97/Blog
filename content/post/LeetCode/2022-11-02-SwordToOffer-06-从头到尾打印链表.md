@@ -1,21 +1,21 @@
 ---
 layout:         "post"
-title:          "剑指Offer-06.从头到尾打印链表"
+title:          "剑指offer-06.从头到尾打印链表"
 subtitle:       "从头到尾打印链表"
 description:    "输入一个链表的头节点，从尾到头反过来返回每个节点的值"
 date:           "2022-11-02T22:32:08+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/06-cong-wei-dao-tou-da-yin-lian-biao-lcof"
+URL:            "/LeetCode/sword-to-offer-06-cong-wei-dao-tou-da-yin-lian-biao-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 栈
   - 递归
   - 链表
   - 双指针
 categories: [
-    "剑指Offer"
+    "LeetCode"
 ]
 ---
 

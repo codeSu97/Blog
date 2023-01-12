@@ -1,20 +1,20 @@
 ---
 layout:         "post"
-title:          "剑指Offer-03.数组中重复的数字"
+title:          "剑指offer-03.数组中重复的数字"
 subtitle:       "找出数组中重复的数字"
 description:    "在一个长度为 n 的数组 `nums` 里的所有数字都在 0～n-1 的范围内。数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字"
 date:           "2022-10-23T17:36:51+08:00"
 author:         "codeSu"
-URL:            "/剑指Offer/03-shu-zu-zhong-zhong-fu-de-shu-zi-lcof"
+URL:            "/LeetCode/sword-to-offer-03-shu-zu-zhong-zhong-fu-de-shu-zi-lcof"
 image:          ""
 tags:
-  - 剑指Offer
-  - 算法
+  - LeetCode
+  - 剑指offer
   - 数组
   - 哈希表
   - 排序
 categories: [
-  "剑指Offer"
+  "LeetCode"
 ]
 ---
 
