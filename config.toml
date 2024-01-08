@@ -14,7 +14,7 @@ hasCJKLanguage = true
 home = ["HTML"]
 
 [params]
-header_image = "http://img.selune.top/bing/bing.jpg"
+header_image = "img/bing_4K.jpg"
 SEOTitle = "codeSu Blog"
 description = "这里是 codeSu 的博客，与你一起发现更大的世界。"
 keyword = "codeSu, codeSu Blog, 博客, 个人网站, 互联网, Web, Python, Golang, Rust, Kubernetes, 微服务"
