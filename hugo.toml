@@ -1,0 +1,123 @@
+baseurl = "https://blog.selune.top"
+languageCode = "zh-cn"
+title = "XiaoYp - Blog"
+theme = 'hugo-theme-stack'
+defaultContentLanguage = 'zh-cn'
+
+[services.disqus]
+# Change it to your Disqus shortname before using
+shortname = "hugo-theme-stack"
+[services.googleAnalytics]
+# GA Tracking ID
+id = ""
+
+[outputs]
+home = ['html']
+section = ['html', 'rss']
+
+[[module.imports]]
+path = "hugo-theme-stack"
+
+[pagination]
+pagerSize = 3
+
+[params]
+description = "想都是问题，做才是答案"
+rssFullContent = true
+favicon = "https://avatars.githubusercontent.com/u/37898221?v=4"
+
+[params.author]
+email = 'xyp_selune@163.com'
+name = 'Selune'
+
+[params.footer]
+since = 2022
+customText = "想都是问题，做才是答案！"
+
+[params.dateFormat]
+published = "2006-01-02"
+# lastUpdated = "Jan 02, 2006 15:04 CST"
+lastUpdated = "2006-01-02 15:04"
+
+[params.sidebar]
+compact = true
+emoji = ""
+subtitle = "想都是问题，做才是答案"
+
+[params.sidebar.avatar]
+enabled = true
+local = false
+src = "https://avatars.githubusercontent.com/u/37898221?v=4"
+
+[params.article]
+math = true
+toc = true
+readingTime = true
+[params.article.license]
+enabled = false
+default = "CC BY-NC-SA 4.0"
+
+[params.widgets]
+[[params.widgets.homepage]]
+type = "search"
+# [[params.widgets.homepage]]
+# type = "archives"
+# [[params.widgets.homepage]]
+# type = "categories"
+[[params.widgets.homepage]]
+type = "tag-cloud"
+[[params.widgets.page]]
+type = "toc"
+
+# [params.defaultImage]
+# [params.defaultImage.opengraph]
+# enabled = true
+# local = false
+# src = "https://avatars.githubusercontent.com/u/37898221?v=4"
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing]
+[params.imageProcessing.cover]
+enabled = true
+[params.imageProcessing.content]
+enabled = true
+
+
+
+### Custom menu
+### See https://stack.jimmycai.com/config/menu
+[menu]
+[[menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+identifier = "home"
+[menu.main.params]
+icon = "home"
+newTab = false
+[[menu.main]]
+name = "分类"
+url = "/categories/"
+weight = 2
+identifier = "categories"
+[menu.main.params]
+icon = "categories"
+newTab = false
+# [[menu.main]]
+# name = "RSS"
+# url = "/sitemap.xml"
+# weight = 4
+# identifier = "rss"
+# [menu.main.params]
+# icon = "rss"
+# newTab = false
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/codeSu97"
+[menu.social.params]
+icon = "brand-github"
