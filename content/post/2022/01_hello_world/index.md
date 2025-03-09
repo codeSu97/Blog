@@ -8,7 +8,7 @@ math: true
 license: false
 hidden: false
 comments: false
-draft: true
+draft: false
 ---
 
 > “Yeah It's on. ”
